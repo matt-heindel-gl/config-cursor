@@ -1,0 +1,43 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Default Dark Modern",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [100],
+  "diffEditor.renderSideBySide": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "git.openRepositoryInParentFolders": "always",
+  // vim
+  // https://github.com/VSCodeVim/Vim?tab=readme-ov-file#%EF%B8%8F-settings
+  "editor.smoothScrolling": true,
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "vim.visualstar": true,
+  "vim.highlightedyank.enable": true,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  // prettier
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cursor.cpp.enablePartialAccepts": true,
+  "gitlens.advanced.externalDiffTool": "nvimdiff"
+}
